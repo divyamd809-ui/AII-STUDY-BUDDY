@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Brain, HelpCircle, ArrowLeft, ArrowRight, RotateCw, Check, Loader2, Sparkles } from 'lucide-react';
+import { Brain, RotateCw, Loader2, Sparkles } from 'lucide-react';
 
 interface Flashcard {
   id: number;
-  front: str;
+  front: string;
   back: string;
   box: number;
 }
