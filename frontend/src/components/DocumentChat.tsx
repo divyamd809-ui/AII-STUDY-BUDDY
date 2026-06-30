@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, MessageSquare, Volume2, VolumeX, Eye, HelpCircle, Loader2, Sparkles } from 'lucide-react';
+import { Send, MessageSquare, Volume2, VolumeX, Eye, Loader2, Sparkles } from 'lucide-react';
 
 interface ChatMessage {
   sender: 'user' | 'ai';
