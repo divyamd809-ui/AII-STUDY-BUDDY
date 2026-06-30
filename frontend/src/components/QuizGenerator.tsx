@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { HelpCircle, CheckCircle2, XCircle, ArrowRight, RefreshCw, Loader2, Award, BookOpen } from 'lucide-react';
 
 interface Question {
-  question: str;
+  question: string;
   options: string[];
   answer: string;
-  explanation: str;
+  explanation: string;
 }
 
 interface Note {

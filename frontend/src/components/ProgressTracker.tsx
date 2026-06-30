@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Clock, BookOpen, Brain, Award, Zap, History, Loader2 } from 'lucide-react';
+import { Clock, BookOpen, Brain, Zap, History, Loader2 } from 'lucide-react';
 
 interface Activity {
   type: string;
