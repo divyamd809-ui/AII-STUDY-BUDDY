@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BookOpen, Volume2, VolumeX, Brain, HelpCircle, Loader2 } from 'lucide-react';
+import { Volume2, VolumeX, Brain, HelpCircle, Loader2 } from 'lucide-react';
 
 interface NoteDetails {
   id: number;
