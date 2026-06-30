@@ -376,7 +376,7 @@ export const QuizGenerator: React.FC<QuizGeneratorProps> = ({ noteId, onStudyCom
       {/* 4. COMPLETED SCREEN */}
       {quizState === 'completed' && (
         <div className="glass-panel" style={{ padding: '40px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '30px', textAlign: 'center' }}>
-          <div style={{ width: '80px', height: '80px', borderRadius: '50%', background: 'linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(217, 119, 6, 0.1) 100%)', display: 'flex', alignItems: 'center', justify: 'center' }}>
+          <div style={{ width: '80px', height: '80px', borderRadius: '50%', background: 'linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(217, 119, 6, 0.1) 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Award size={44} style={{ color: 'rgba(245, 158, 11, 0.9)' }} />
           </div>
 
